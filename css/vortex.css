@@ -749,6 +749,12 @@ section.features .content .image::after {
   border-style: solid;
   border-width: 0px 0px 150px 500px;
   border-color: transparent transparent white transparent;
+  transition: var(--main-duration);
+}
+
+section.features .content .card:hover .image::after {
+  border-width: 0px 500px 150px 0px
+
 }
 
 section.features .content img {
